@@ -7,7 +7,7 @@ app.use(express.json())
 
 //routes
 app.get('/',(req,res)=>{
-    res.send('Hello byron ')
+    res.send('Hello ')
 })
 
 app.get('/users',async(req,res) =>{
